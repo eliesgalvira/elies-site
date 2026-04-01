@@ -82,7 +82,7 @@ export default function Home() {
             <div className="rounded-lg overflow-hidden bg-foreground/[0.06] transition-transform duration-300 ease-out group-hover:scale-[1.05]">
               <AspectRatio ratio={16 / 9} className="rounded-lg">
                 <Image
-                  src="/hp-35.png"
+                  src="/hp-35.webp"
                   alt="HP-35 Calculator"
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
