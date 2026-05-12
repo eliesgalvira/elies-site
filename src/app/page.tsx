@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { OpenGraphImage } from "@/components/open-graph-image";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 export default function Home() {
@@ -96,83 +95,6 @@ export default function Home() {
             </div>
           </a>
 
-          {/* File Sharing */}
-          <a
-            href="https://file-sharing-lilac.vercel.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group block"
-          >
-            <div className="rounded-lg overflow-hidden bg-foreground/[0.06] transition-transform duration-300 ease-out group-hover:scale-[1.05]">
-              <AspectRatio ratio={16 / 9} className="rounded-lg">
-                <OpenGraphImage
-                  pageUrl="https://file-sharing-lilac.vercel.app"
-                  cacheKey="file-sharing"
-                  alt="File sharing project"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  className="h-full w-full rounded-lg object-cover"
-                />
-              </AspectRatio>
-            </div>
-            <div className="mt-3">
-              <h3 className="font-medium">File Sharing</h3>
-              <p className="text-sm text-foreground/70">
-                file-sharing-lilac.vercel.app
-              </p>
-            </div>
-          </a>
-
-          {/* Online Clipboard */}
-          <a
-            href="https://clipboardbox.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group block"
-          >
-            <div className="rounded-lg overflow-hidden bg-foreground/[0.06] transition-transform duration-300 ease-out group-hover:scale-[1.05]">
-              <AspectRatio ratio={16 / 9} className="rounded-lg">
-                <Image
-                  src="/clipboard-box.png"
-                  alt="Online Clipboard"
-                  fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  className="h-full w-full rounded-lg object-cover"
-                />
-              </AspectRatio>
-            </div>
-            <div className="mt-3">
-              <h3 className="font-medium">Online Clipboard</h3>
-              <p className="text-sm text-foreground/70">
-                clipboardbox.com
-              </p>
-            </div>
-          </a>
-
-          {/* AI Product Designer */}
-          <a
-            href="https://github.com/eliesgalvira/ai-product-chat"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="group block"
-          >
-            <div className="rounded-lg overflow-hidden bg-foreground/[0.06] transition-transform duration-300 ease-out group-hover:scale-[1.05]">
-              <AspectRatio ratio={16 / 9} className="rounded-lg">
-                <Image
-                  src="/ai-product-chat.png"
-                  alt="AI Product Designer"
-                  fill
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                  className="h-full w-full rounded-lg object-cover"
-                />
-              </AspectRatio>
-            </div>
-            <div className="mt-3">
-              <h3 className="font-medium">AI Product Designer</h3>
-              <p className="text-sm text-foreground/70">
-                github.com/eliesgalvira/ai-product-chat
-              </p>
-            </div>
-          </a>
         </div>
       </main>
     </div>
