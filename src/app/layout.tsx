@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/components/theme-provider";
+import { Analytics } from "@vercel/analytics/next";
 import { ModeToggle } from "@/components/mode-toggle";
-import { Analytics } from "@vercel/analytics/next"
+import { ThemeProvider } from "@/components/theme-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,9 +23,7 @@ export const metadata: Metadata = {
       { url: "/favicon.svg", type: "image/svg+xml" },
       { url: "/icon1.png", sizes: "96x96", type: "image/png" },
     ],
-    apple: [
-      { url: "/apple-icon.png" },
-    ],
+    apple: [{ url: "/apple-icon.png" }],
   },
 };
 
