@@ -94,7 +94,6 @@ export default function Home() {
               <p className="text-sm text-foreground/70">hp-35.com</p>
             </div>
           </a>
-
         </div>
       </main>
     </div>

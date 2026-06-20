@@ -1,0 +1,3 @@
+Contact: https://github.com/eliesgalvira
+Preferred-Languages: en
+Canonical: https://www.elies.site/.well-known/security.txt
